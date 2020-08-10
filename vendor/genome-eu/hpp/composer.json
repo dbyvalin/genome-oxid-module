@@ -1,0 +1,35 @@
+{
+    "name": "genome-eu/hpp",
+    "description": "Genome PHP Library",
+    "keywords": [
+        "genome"
+    ],
+    "homepage": "https://genome.eu/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Genome team",
+            "homepage": "https://github.com/genome-eu"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "ext-iconv": "*",
+        "ext-mbstring": "*",
+        "psr/log": "~1.0",
+        "ext-json": "*",
+        "ext-curl": "*"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "1.5.3",
+        "phpstan/phpstan": "0.8.5"
+    },
+    "autoload": {
+        "psr-4": { "Genome\\" : "src/" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0-dev"
+        }
+    }
+}
